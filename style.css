@@ -28,13 +28,14 @@ body {
     color: #E5E7Eb;
 }
 
+
+.container.white {
+    background-color: white;
+}
+
 .container{
     display: flex;
     flex: 1;
-}
-
-.container-white {
-    background-color: white;
 }
 
 .hero-text {

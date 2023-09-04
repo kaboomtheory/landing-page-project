@@ -22,6 +22,16 @@ body {
     flex: 1;
 }
 
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 .logo {
     color: white;
     font-size: 24px;
@@ -58,9 +68,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
+
 }
 
 .container.grey {
@@ -68,6 +76,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.cta {
+    background-color: #3882f6;
+    padding: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta button {
+    color: white;
+    background-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 20px;
 }
 
 .quote {
@@ -108,6 +134,8 @@ body {
     color: white;
     height: 30px;
     width: 100px;
+    border: 0;
+
 }
 
 a {
@@ -130,6 +158,14 @@ h1 {
     margin: 0;
     padding: 0;
 }
+.cta h2 {
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
 
 .card-subtext p {
     color: black;
@@ -144,7 +180,10 @@ p {
 }
 
 button {
-    border: 0;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-items: center;
     padding: 0;
     border-radius: 5px;
 }

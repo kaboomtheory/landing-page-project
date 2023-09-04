@@ -3,8 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 200px;
+    margin: 0;
     gap: 75px;
+}
+
+.header, .container {
+    padding: 20px 200px;
 }
 
 .header {
@@ -27,6 +31,10 @@ body {
 .container{
     display: flex;
     flex: 1;
+}
+
+.container-white {
+    background-color: white;
 }
 
 .hero-text {

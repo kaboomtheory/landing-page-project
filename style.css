@@ -8,18 +8,17 @@ body {
 
 
 .header {
-    padding: 20px 200px 100px;
-}
-
-.container {
-    padding: 100px 200px;
-}
-
-.header {
+    padding: 20px 90px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
+}
+
+.container {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
 }
 
 .col {
@@ -115,23 +114,18 @@ body {
     font-weight: bold;
 }
 
-.container{
-    display: flex;
-    flex: 1;
-}
-
 .hero-text {
     display: flex;
     flex-direction: column;
+    flex-basis: 400px;
     gap: 10px;
-    flex: 1;
 }
 
 .hero-image {
     display: flex;
     background-color: grey;
-    flex: 1;
     justify-content: center;
+    flex-basis: 500px;
     text-align: center;
     align-items: center;
 }
